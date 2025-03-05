@@ -43,7 +43,7 @@ cudnnMathType_t cudnn_math_type = CUDNN_DEFAULT_MATH;
 #endif
 
 #define CONTEXT_WORKSPACE_SIZE 128 * 1024 * 1024 // 256 MB
-#define MAX_NUM_GROUPS 10
+#define MAX_NUM_GROUPS 5
 #define MAX_NUM_VALUES 25
 #define MAX_NUM_TERMS 25
 #define MAX_NUM_NODES 1000
